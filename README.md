@@ -9,7 +9,7 @@
 <p align="center">
   <b>Lital Efraim</b><br>
   Supervisor: Dr. Sagi Dalyot · Co-supervisor: Prof. Meead Saberi Kalaee (UNSW Sydney)<br>
-  Research assistants: Raquel-Abdi Goldsztejn-Saad · Yuval Margolin
+  Research assistants: Yuval Margolin · Raquel-Abdi Goldsztejn-Saad (Faculty of Data and Decision Sciences, Technion)
 </p>
 
 ---
@@ -31,14 +31,14 @@ The research has two components:
 
 <p align="center">
   <a href="assets/street_to_room_demo.mp4">
-    <img src="assets/street_to_room_demo.gif" alt="The transition trigger starts the indoor map" width="100%">
+    <img src="assets/street_to_room_demo.webp" alt="The transition trigger starts the indoor map" width="100%">
   </a>
 </p>
 
 <p align="center"><i>
-The trigger starts the map (campus video 089, shown at 3x speed; click for the full-speed video).
+The trigger starts the map (campus video 089, original speed; click for the full-resolution video).
 Outdoor: the gate is closed. Indoor: continuous mapping, keyframes accumulate and rooms close.
-Outdoor again: the floor plan is locked. Entrance trigger at 0:13, exit trigger at 0:57.
+Outdoor again: the floor plan is locked. Entrance trigger at 0:26, exit trigger at 1:54.
 </i></p>
 
 <p align="center">
@@ -107,9 +107,9 @@ The code of this research is published in three companion repositories, develope
 
 | Repository | Content | Developer |
 |---|---|---|
-| [**raquelgold/indoor_outdoor_detection**](https://github.com/raquelgold/indoor_outdoor_detection) | Component A: indoor/outdoor transition detection in 360° video with the three cues and the 2-of-3 vote. Its output, `transitions_confirmed.csv`, is the input of the floor plan pipeline | Raquel-Abdi Goldsztejn-Saad |
-| [**raquelgold/dfpe**](https://github.com/raquelgold/dfpe) | Component B: floor plans from 360° video. Cuts the video into indoor clips, estimates room layouts (HorizonNet or LGT-Net), tracks the camera with stella_vslam, and fuses both into a floor plan | Raquel-Abdi Goldsztejn-Saad |
-| [**yuvalmar16/360SFUDA-Indoor-and-Outdoor-detection**](https://github.com/yuvalmar16/360SFUDA-Indoor-and-Outdoor-detection) | The semantic cue: 360° panoramic semantic segmentation (SegFormer adapted to equirectangular video) with a per-frame indoor/outdoor decision | Yuval Margolin |
+| [**raquelgold/indoor_outdoor_detection**](https://github.com/raquelgold/indoor_outdoor_detection) | Component A: indoor/outdoor transition detection in 360° video with the three cues and the 2-of-3 vote. Its output, `transitions_confirmed.csv`, is the input of the floor plan pipeline | [Raquel-Abdi Goldsztejn-Saad](https://github.com/raquelgold) |
+| [**raquelgold/dfpe**](https://github.com/raquelgold/dfpe) | Component B: floor plans from 360° video. Cuts the video into indoor clips, estimates room layouts (HorizonNet or LGT-Net), tracks the camera with stella_vslam, and fuses both into a floor plan | [Raquel-Abdi Goldsztejn-Saad](https://github.com/raquelgold) |
+| [**yuvalmar16/360SFUDA-Indoor-and-Outdoor-detection**](https://github.com/yuvalmar16/360SFUDA-Indoor-and-Outdoor-detection) | The semantic cue: 360° panoramic semantic segmentation (SegFormer adapted to equirectangular video) with a per-frame indoor/outdoor decision | [Yuval Margolin](https://github.com/yuvalmar16) |
 
 ## Publications
 
@@ -121,4 +121,4 @@ The code of this research is published in three companion repositories, develope
 
 This research builds on [HorizonNet](https://github.com/sunset1995/HorizonNet), [LGT-Net](https://github.com/zhigangjiang/LGT-Net), [direct_360_FPE](https://github.com/EnriqueSolarte/direct_360_FPE), [stella_vslam](https://github.com/stella-cv/stella_vslam), 360SFUDA++ and YOLOv7 with Open Images V7.
 
-Thanks to research assistants Raquel-Abdi Goldsztejn-Saad and Yuval Margolin for the implementation of the companion repositories.
+Thanks to research assistants Yuval Margolin and Raquel-Abdi Goldsztejn-Saad (Faculty of Data and Decision Sciences, Technion) for the implementation of the companion repositories.
