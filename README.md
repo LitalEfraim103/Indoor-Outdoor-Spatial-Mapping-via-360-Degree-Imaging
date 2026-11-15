@@ -8,7 +8,8 @@
 
 <p align="center">
   <b>Lital Efraim</b><br>
-  Supervisor: Dr. Sagi Dalyot · Co-supervisor: Prof. Meead Saberi Kalaee (UNSW Sydney)
+  Supervisor: Dr. Sagi Dalyot · Co-supervisor: Prof. Meead Saberi Kalaee (UNSW Sydney)<br>
+  Research assistants: Raquel-Abdi Goldsztejn-Saad · Yuval Margolin
 </p>
 
 ---
